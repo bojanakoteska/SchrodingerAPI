@@ -1,9 +1,5 @@
 # Schrödinger API - RESTful web service for solving multidimensional time-independent Schrödinger equation using Hermite DVR approach
 
-Developers: [Bojana Koteska](mailto:bojana.koteska@finki.ukim.mk), [Anastas Mishev](mailto:anastas.mishev@finki.ukim.mk), [Ljupco Pejov](mailto:ljupcop@pmf.ukim.mk)
-
-## Service description
-
 This RESTful web service (SchrodingerAPI) provides a method for solution of **one-dimensional**, **two-dimensional** and **three-dimensional** time-independent Schrödinger equation based on the the Gauss-Hermite Discrete Variable Representation (DVR) approach. 
 
 
@@ -16,6 +12,12 @@ The solution of one-dimensional (1D) Schrödinger equation is illustrated in the
 
 
 Solutions of two-dimensional (2D) and three-dimensional (3D) Schrödinger equations are illustrated for the following two model potentials:  multidimensional Morse potential and multidimensional SHO potential.
+
+## Authors
+
+[Bojana Koteska](mailto:bojana.koteska@finki.ukim.mk), [Anastas Mishev](mailto:anastas.mishev@finki.ukim.mk), [Ljupco Pejov](mailto:ljupcop@pmf.ukim.mk)
+
+## Service description
 
 
 All service methods are GET methods and they can be tested by entering the parameters directly on the SchrodingerAPI home page (supported by Swagger) at https://schrodinger.chem-api.finki.ukim.mk/. Other possibilites to test the service methods include using browser URL bar, consuming the service methods in your source code or by using specific API testing tools such as [Postman](https://www.postman.com/).
