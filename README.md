@@ -2,11 +2,6 @@
 
 Developers: [Bojana Koteska](mailto:bojana.koteska@finki.ukim.mk), [Anastas Mishev](mailto:anastas.mishev@finki.ukim.mk), [Ljupco Pejov](mailto:ljupcop@pmf.ukim.mk)
 
-> Website: https://schrodinger.chem-api.finki.ukim.mk/<br>
-<a href="https://schrodinger.chem-api.finki.ukim.mk/static/SchrodingerAPI-Terms_of_use.pdf"> Schrödinger API - Terms of use </a><br>
-<a href="https://schrodinger.chem-api.finki.ukim.mk/static/SchrodingerAPI-Privacy_policy.pdf">Schrödinger API - Privacy policy</a><br>
-<a href="https://schrodinger.chem-api.finki.ukim.mk/static/SchrodingerAPI-Acceptable_use_policy.pdf">Schrödinger API - Acceptable use policy</a><br>
-
 ## Service description
 
 This RESTful web service (SchrodingerAPI) provides a method for solution of **one-dimensional**, **two-dimensional** and **three-dimensional** time-independent Schrödinger equation based on the the Gauss-Hermite Discrete Variable Representation (DVR) approach. Web service source code is based on the following __[python module](https://github.com/richford/dvr_py/)__ for solving 1D Schrödinger equation, but with several code adaptations and modifications. Methods for solving 2D and 3D Schrödinger equations are developed from scratch.
