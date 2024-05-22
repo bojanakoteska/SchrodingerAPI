@@ -71,22 +71,25 @@ Parameters:
 
 Example with default parameters:
 
+```python
 import requests
 response = requests.get('https://schrodinger.chem-api.finki.ukim.mk/1dHermiteMorse')
 if response.status_code == 200:
         print(response.content.decode('utf-8')) 
 else:
         print("None")
+```
 
 Example with parameters (npts=10, D=3.0, a=0.5, x0=0.0, prec=6):
 
+```python
 import requests
-response = \
-requests.get('https://schrodinger.chem-api.finki.ukim.mk/1dHermiteMorse?npts=20&D=0.176&a=1.02&x0=1.4&prec=32')
+response = requests.get('https://schrodinger.chem-api.finki.ukim.mk/1dHermiteMorse?npts=20&D=0.176&a=1.02&x0=1.4&prec=32')
 if response.status_code == 200:
         print(response.content.decode('utf-8')) 
 else:
         print("None")
+```
 
 #### 1D SHO potential <a id='1DSHO'></a>
 
@@ -103,21 +106,25 @@ Parameters:
 
 Example with default parameters:
 
+```python
 import requests
 response = requests.get('https://schrodinger.chem-api.finki.ukim.mk/1dHermiteSho')
 if response.status_code == 200:
         print(response.content.decode('utf-8')) 
 else:
         print("None")
+```
 
 Example with parameters (npts=10, k=1.0, x0=0.0, prec=19):
 
+```python
 import requests
 response = requests.get('https://schrodinger.chem-api.finki.ukim.mk/1dHermiteSho?npts=20&k=1.0&x0=0.0&prec=19')
 if response.status_code == 200:
         print(response.content.decode('utf-8')) 
 else:
         print("None")
+```
 
 #### 1D Sombrero potential <a id='1DSomb'></a>
 
@@ -134,21 +141,25 @@ Parameters:
 
 Example with default parameters:
 
+```python
 import requests
 response = requests.get('https://schrodinger.chem-api.finki.ukim.mk/1dHermiteSombrero')
 if response.status_code == 200:
         print(response.content.decode('utf-8')) 
 else:
         print("None")
+```
 
 Example with parameters (npts=10, a=-5.0, b=1.0, prec=3):
 
+```python
 import requests
 response = requests.get('https://schrodinger.chem-api.finki.ukim.mk/1dHermiteSombrero?npts=10&a=-5.0&b=1.0&prec=3')
 if response.status_code == 200:
         print(response.content.decode('utf-8')) 
 else:
         print("None")
+```
 
 #### 1D Woods-Saxon potential <a id='1DWS'></a>
 
@@ -169,21 +180,25 @@ Parameters:
 
 Example with default parameters:
 
+```python
 import requests
 response = requests.get('https://schrodinger.chem-api.finki.ukim.mk/1dHermiteWoodSax')
 if response.status_code == 200:
         print(response.content.decode('utf-8')) 
 else:
         print("None")
+```
 
 Example with parameters (npts=10, V0=50.0, z=0.5, r0=1.2, A=16, prec=4):
 
+```python
 import requests
 response = requests.get('https://schrodinger.chem-api.finki.ukim.mk/1dHermiteWoodSax?npts=10&V0=50.0&z=0.5&r0=1.2&A=16&prec=4')
 if response.status_code == 200:
         print(response.content.decode('utf-8')) 
 else:
         print("None")
+```
 
 ### Application of the DVR method for solution of two-dimensional (2D) Schrödinger equation <a id='2D'></a>
 
@@ -206,21 +221,25 @@ Parameters:
 
 Example with default parameters:
 
+```python
 import requests
 response = requests.get('https://schrodinger.chem-api.finki.ukim.mk/2dHermiteMorse')
 if response.status_code == 200:
         print(response.content.decode('utf-8')) 
 else:
         print("None")
+```
 
 Example with parameters (npts=10, D1=3.0, a1=0.5, D2=3.0, a2=0.5, x0=0, y0=0, prec=100):
 
+```python
 import requests
 response = requests.get('https://schrodinger.chem-api.finki.ukim.mk/2dHermiteMorse?npts=10&D1=3.0&a1=0.5&D2=3&a2=0.5&x0=0.0&y0=0.0&prec=100')
 if response.status_code == 200:
         print(response.content.decode('utf-8')) 
 else:
         print("None")
+```
 
 #### 2D SHO potential
 
@@ -238,21 +257,25 @@ Parameters:
 
 Example with default parameters:
 
+```python
 import requests
 response = requests.get('https://schrodinger.chem-api.finki.ukim.mk/2dHermiteSho')
 if response.status_code == 200:
         print(response.content.decode('utf-8')) 
 else:
         print("None")
+```
 
  Example with parameters (npts=5, k=1.0, x0=0.0, y0=0, prec=20):
 
+```python
 import requests
 response = requests.get('https://schrodinger.chem-api.finki.ukim.mk/2dHermiteSho?npts=10&k=1.0&x0=0.0&y0=0.0&prec=20')
 if response.status_code == 200:
         print(response.content.decode('utf-8')) 
 else:
         print("None")
+```
 
 ### Application of the DVR method for solution of three-dimensional (3D) Schrödinger equation <a id='3D'></a>
 
@@ -281,21 +304,25 @@ Parameters:
 Example with default parameters:
 
 
+```python
 import requests
 response = requests.get('https://schrodinger.chem-api.finki.ukim.mk/3dHermiteMorse')
 if response.status_code == 200:
         print(response.content.decode('utf-8')) 
 else:
         print("None")
+```
 
 Example with parameters (npts=10, D1=3.0, a1=0.5, D2=3.0, a2=0.5, D3=3.0, a3=0.5, x0=0, y0=0, prec=10):
 
+```python
 import requests
 response = requests.get('https://schrodinger.chem-api.finki.ukim.mk/3dHermiteMorse?npts=10&D1=3.0&a1=0.5&D2=3&a2=0.5&D3=3.0&a3=0.5&x0=0.0&y0=0.0&z0=0&prec=10')
 if response.status_code == 200:
         print(response.content.decode('utf-8')) 
 else:
         print("None")
+```
 
 #### 3D SHO potential
 
