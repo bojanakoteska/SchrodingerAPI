@@ -15,10 +15,10 @@ The method is illustrated through different examples available for 1D, 2D and 3D
 
 The solution of [one-dimensional](#1D) Schrödinger equation is illustrated in the case of following model potentials:
 
--   [Morse potential](#1DMorse);
--   [Simple Harmonic Oscillator (SHO) potential](#1DSHO);
--   [Sombrero potential (Mexican hat)](#1DSomb);
--   [Woods-Saxon potential](#1DWS).
+-   Morse potential;
+-   Simple Harmonic Oscillator (SHO) potential;
+-   Sombrero potential (Mexican hat);
+-   Woods-Saxon potential.
 
 
 
