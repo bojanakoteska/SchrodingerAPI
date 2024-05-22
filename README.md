@@ -1,4 +1,4 @@
-# Project Title: Schrödinger API - RESTful web service for solving multidimensional time-independent Schrödinger equation using Hermite DVR approach
+# Schrödinger API - RESTful web service for solving multidimensional time-independent Schrödinger equation using Hermite DVR approach
 
 This RESTful web service (SchrodingerAPI) provides a method for solution of **one-dimensional**, **two-dimensional** and **three-dimensional** time-independent Schrödinger equation based on the the Gauss-Hermite Discrete Variable Representation (DVR) approach. 
 
