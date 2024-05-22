@@ -327,3 +327,6 @@ if response.status_code == 200:
         print(response.content.decode('utf-8')) 
 else:
         print("None")
+
+## License
+This project is licensed under the MIT License; for more details, see the [LICENSE](https://github.com/bojanakoteska/SchrodingerAPI/blob/main/LICENSE) file.
