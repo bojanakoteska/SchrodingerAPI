@@ -1,9 +1,6 @@
 # Schrödinger API - RESTful web service for solving multidimensional time-independent Schrödinger equation using Hermite DVR approach
 
->  Bojana Koteska (bojana.koteska@finki.ukim.mk), Anastas Mishev (anastas.mishev@finki.ukim.mk)<br>
-*Ss. Cyril and Methodius University, Faculty of Computer Science and Engineering, 1000 Skopje, North Macedonia* <br>
-Ljupco Pejov (ljupcop@pmf.ukim.mk)<br>
-*Ss. Cyril and Methodius University, Faculty of Natural Science and Mathematics, 1000 Skopje, North Macedonia*<br>
+Developers: [Bojana Koteska](mailto:bojana.koteska@finki.ukim.mk), [Anastas Mishev](mailto:anastas.mishev@finki.ukim.mk), [Ljupco Pejov](mailto:ljupcop@pmf.ukim.mk)
 
 > Website: https://schrodinger.chem-api.finki.ukim.mk/<br>
 <a href="https://schrodinger.chem-api.finki.ukim.mk/static/SchrodingerAPI-Terms_of_use.pdf"> Schrödinger API - Terms of use </a><br>
