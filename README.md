@@ -314,21 +314,25 @@ Parameters:
 
 Example with default parameters:
 
+```python
 import requests
 response = requests.get('https://schrodinger.chem-api.finki.ukim.mk/3dHermiteSho')
 if response.status_code == 200:
         print(response.content.decode('utf-8')) 
 else:
         print("None")
+```
 
 Example with parameters (npts=10, k=1.0, x0=0.0, y0=0, z0=0, prec=15):
 
+```python
 import requests
 response = requests.get('https://schrodinger.chem-api.finki.ukim.mk/3dHermiteSho?npts=10&k=1.0&x0=0.0&y0=0.0&z0=0.0&prec=15')
 if response.status_code == 200:
         print(response.content.decode('utf-8')) 
 else:
         print("None")
+```
 
 ## License
 This project is licensed under the MIT License; for more details, see the [LICENSE](https://github.com/bojanakoteska/SchrodingerAPI/blob/main/LICENSE) file.
