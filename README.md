@@ -4,11 +4,10 @@ Developers: [Bojana Koteska](mailto:bojana.koteska@finki.ukim.mk), [Anastas Mish
 
 ## Service description
 
-This RESTful web service (SchrodingerAPI) provides a method for solution of **one-dimensional**, **two-dimensional** and **three-dimensional** time-independent Schrödinger equation based on the the Gauss-Hermite Discrete Variable Representation (DVR) approach. Web service source code is based on the following __[python module](https://github.com/richford/dvr_py/)__ for solving 1D Schrödinger equation, but with several code adaptations and modifications. Methods for solving 2D and 3D Schrödinger equations are developed from scratch.
+This RESTful web service (SchrodingerAPI) provides a method for solution of **one-dimensional**, **two-dimensional** and **three-dimensional** time-independent Schrödinger equation based on the the Gauss-Hermite Discrete Variable Representation (DVR) approach. 
 
-The method is illustrated through different examples available for 1D, 2D and 3D cases.
 
-The solution of [one-dimensional](#1D) Schrödinger equation is illustrated in the case of following model potentials:
+The solution of one-dimensional (1D) Schrödinger equation is illustrated in the case of following model potentials:
 
 -   Morse potential;
 -   Simple Harmonic Oscillator (SHO) potential;
@@ -16,8 +15,7 @@ The solution of [one-dimensional](#1D) Schrödinger equation is illustrated in t
 -   Woods-Saxon potential.
 
 
-
-Solutions of [two-dimensional](#2D) and [three-dimensional](#3D) Schrödinger equations are illustrated for the following two model potentials:  multidimensional Morse potential and multidimensional SHO potential.
+Solutions of two-dimensional (2D) and three-dimensional (3D) Schrödinger equations are illustrated for the following two model potentials:  multidimensional Morse potential and multidimensional SHO potential.
 
 
 All service methods are GET methods and they can be tested by entering the parameters directly on the SchrodingerAPI home page (supported by Swagger) at https://schrodinger.chem-api.finki.ukim.mk/. Other possibilites to test the service methods include using browser URL bar, consuming the service methods in your source code or by using specific API testing tools such as [Postman](https://www.postman.com/).
