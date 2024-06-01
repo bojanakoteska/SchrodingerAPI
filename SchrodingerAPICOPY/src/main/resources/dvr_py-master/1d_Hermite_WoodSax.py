@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 import dvr_1d_copy
 import sys
 d = dvr_1d_copy.HermiteDVR(npts=int(sys.argv[1]))
