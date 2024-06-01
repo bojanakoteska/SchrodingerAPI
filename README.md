@@ -1,7 +1,9 @@
 # Schrödinger API - RESTful web service for solving multidimensional time-independent Schrödinger equation using Hermite DVR approach
 
 Developers: [Bojana Koteska](mailto:bojana.koteska@finki.ukim.mk)
-Project Supervisors: [Anastas Mishev](mailto:anastas.mishev@finki.ukim.mk), 
+
+Project Supervisors: [Anastas Mishev](mailto:anastas.mishev@finki.ukim.mk)
+
 Scientific Advisors: [Ljupco Pejov](mailto:ljupcop@pmf.ukim.mk)
 
 Contributors: Thanks to Vojdan Kjorverziroski for his contributions and his help in deploying the code.
