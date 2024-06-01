@@ -22,12 +22,6 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
 
-      - name: Navigate to SchrodingerAPICOPY directory
-        run: cd SchrodingerAPICOPY && ls -al
-
-      - name: List contents of current directory
-        run: ls -al
-
       - name: Build with Maven
         run: mvn clean install
 
