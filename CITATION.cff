@@ -1,0 +1,73 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Schrödinger API - RESTful web service for solving
+  multidimensional time-independent Schrödinger equation
+  using Hermite DVR approach
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Bojana
+    family-names: Koteska
+    email: bojana.koteska@finki.ukim.mk
+    affiliation: >-
+      Ss. Cyril and Methodius University, Faculty of
+      Computer Science and Engineering, Skopje, North
+      Macedonia
+    orcid: 'https://orcid.org/0000-0001-6118-9044'
+  - given-names: Anastas
+    family-names: Mishev
+    email: anastas.mishev@finki.ukim.mk
+    affiliation: >-
+      Ss. Cyril and Methodius University, Faculty of
+      Computer Science and Engineering, Skopje, North
+      Macedonia
+    orcid: 'https://orcid.org/0000-0001-7271-6655'
+  - given-names: Ljupco
+    family-names: Pejov
+    email: ljupcop@pmf.ukim.mk
+    affiliation: >-
+      Ss.Cyril and Methodius University, Faculty of Natural
+      Sciences and Mathematics, Institute of Chemistry,
+      Skopje, North Maceodnia
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.11408339
+    description: Zenodo DOI
+repository-code: 'https://github.com/bojanakoteska/SchrodingerAPI'
+url: 'https://schrodinger.chem-api.finki.ukim.mk/'
+abstract: >+
+  This RESTful web service (SchrodingerAPI) provides a
+  method for solution of one-dimensional, two-dimensional
+  and three-dimensional time-independent Schrödinger
+  equation based on the the Gauss-Hermite Discrete Variable
+  Representation (DVR) approach.
+
+
+  The solution of one-dimensional (1D) Schrödinger equation
+  is illustrated in the case of following model potentials:
+
+
+  Morse potential;
+
+  Simple Harmonic Oscillator (SHO) potential;
+
+  Sombrero potential (Mexican hat);
+
+  Woods-Saxon potential.
+
+  Solutions of two-dimensional (2D) and three-dimensional
+  (3D) Schrödinger equations are illustrated for the
+  following two model potentials: multidimensional Morse
+  potential and multidimensional SHO potential.
+
+keywords:
+  - REST API
+  - RESTful web service
+  - Schrödinger equation
+license: MIT
+date-released: '2024-05-22'
