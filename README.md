@@ -85,7 +85,7 @@ One of the options is also to consume the method in the user program source code
 
 ## Build, Installation, and Execution Instructions
 
-#### Prerequisites
+### Prerequisites
 - Ensure you have Java Development Kit (JDK) 8 or later installed. You can download it from [here](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
 - Ensure you have Apache Maven installed. You can download it from [here](https://maven.apache.org/download.cgi).
 - Ensure you have Python 3 installed. You can download it from [here](https://www.python.org/downloads/).
@@ -93,13 +93,11 @@ One of the options is also to consume the method in the user program source code
 
 ### Build Instructions
 
-To build this project, ensure you have Maven installed on your system. Then follow these steps:
-
-**Clone the Repository, Navigate to the Project Directory, and Build the Project with Maven:**
+To build this project, ensure you have Maven installed on your system. Clone the Repository, Navigate to the Project Directory, and Build the Project with Maven:**
 
 ```bash
 git clone https://github.com/bojanakoteska/SchrodingerAPI.git && cd SchrodingerAPI && mvn clean package
-
+```
 
 ### Installation Instructions
 
@@ -107,6 +105,7 @@ Once the build is successful, you can run the JAR file in the target directory:
 
 ```bash
 java -jar SchrodingerAPI.jar
+```
 
 This command will start the application locally, and you can access it at `http://localhost:8080`.
 
