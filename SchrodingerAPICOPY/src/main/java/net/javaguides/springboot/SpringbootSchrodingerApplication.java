@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 package net.javaguides.springboot;
 
 import org.springframework.boot.SpringApplication;
