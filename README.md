@@ -137,7 +137,7 @@ else:
     print("Error:", response.status_code)
 
 ```
-To interact with the API online, check the next subsection.
+To interact with the API online, check the examples in the next subsections.
 
 ### Examples of the DVR method for solution of one-dimensional (1D) Schrödinger equation <a id='1D'></a>
 
