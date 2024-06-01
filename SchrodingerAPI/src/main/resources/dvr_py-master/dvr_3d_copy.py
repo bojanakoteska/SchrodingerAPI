@@ -1,3 +1,5 @@
+#SPDX-License-Identifier: MIT
+
 """
 Use a simple Discrete Variable Representation method to solve
 one-dimensional potentials.

@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+
 package net.javaguides.springboot;
 
 import java.io.BufferedReader;

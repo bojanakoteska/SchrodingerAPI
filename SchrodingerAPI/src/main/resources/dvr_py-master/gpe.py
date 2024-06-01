@@ -1,3 +1,5 @@
+#SPDX-License-Identifier: MIT
+
 import dvr_1d
 import numpy as np
 from scipy.optimize import newton_krylov
