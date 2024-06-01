@@ -1,5 +1,15 @@
 # Schrödinger API - RESTful web service for solving multidimensional time-independent Schrödinger equation using Hermite DVR approach
 
+Developers: [Bojana Koteska](mailto:bojana.koteska@finki.ukim.mk)
+Project Supervisors: [Anastas Mishev](mailto:anastas.mishev@finki.ukim.mk), 
+Scientific Advisors: [Ljupco Pejov](mailto:ljupcop@pmf.ukim.mk)
+
+Contributors: Thanks to Vojdan Kjorverziroski for his contributions and his help in deploying the code.
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11408339.svg)](https://doi.org/10.5281/zenodo.11408339)
+
+## Overview 
+
 This RESTful web service (SchrodingerAPI) provides a method for solution of **one-dimensional**, **two-dimensional** and **three-dimensional** time-independent Schrödinger equation based on the the Gauss-Hermite Discrete Variable Representation (DVR) approach. 
 
 
@@ -13,9 +23,6 @@ The solution of one-dimensional (1D) Schrödinger equation is illustrated in the
 
 Solutions of two-dimensional (2D) and three-dimensional (3D) Schrödinger equations are illustrated for the following two model potentials:  multidimensional Morse potential and multidimensional SHO potential.
 
-## Authors
-
-Active contributors: [Bojana Koteska](mailto:bojana.koteska@finki.ukim.mk), [Anastas Mishev](mailto:anastas.mishev@finki.ukim.mk), [Ljupco Pejov](mailto:ljupcop@pmf.ukim.mk)
 
 ## Software metadata
 
