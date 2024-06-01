@@ -84,7 +84,7 @@ If user preffers to change other paramerets, they can be added with the &PARAMET
 One of the options is also to consume the method in the user program source code. Examples in Python are provided in the section below.
 
 
-### Usage/Examples of the DVR method for solution of one-dimensional (1D) Schrödinger equation <a id='1D'></a>
+### Examples of the DVR method for solution of one-dimensional (1D) Schrödinger equation <a id='1D'></a>
 
 #### 1D Morse potential <a id='1DMorse'></a>
 
