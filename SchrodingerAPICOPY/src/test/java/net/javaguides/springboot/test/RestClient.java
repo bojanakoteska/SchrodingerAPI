@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 package net.javaguides.springboot.test;
 
 import org.springframework.web.client.RestTemplate;
