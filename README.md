@@ -83,6 +83,46 @@ If user preffers to change other paramerets, they can be added with the &PARAMET
 
 One of the options is also to consume the method in the user program source code. Examples in Python are provided in the section below.
 
+## Build, Installation, and Execution Instructions
+
+#### Prerequisites
+- Ensure you have Java Development Kit (JDK) 8 or later installed. You can download it from [here](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+- Ensure you have Apache Maven installed. You can download it from [here](https://maven.apache.org/download.cgi).
+- Ensure you have Python 3 installed. You can download it from [here](https://www.python.org/downloads/).
+
+
+### Build Instructions
+
+To build this project, ensure you have Maven installed on your system. Then follow these steps:
+
+**Clone the Repository, Navigate to the Project Directory, and Build the Project with Maven:**
+
+```bash
+git clone https://github.com/bojanakoteska/SchrodingerAPI.git && cd SchrodingerAPI && mvn clean package
+
+
+### Installation Instructions
+
+Once the build is successful, you can run the JAR file in the target directory:
+
+```bash
+java -jar SchrodingerAPI.jar
+
+This command will start the application locally, and you can access it at `http://localhost:8080`.
+
+### Execution Instructions
+
+#### Running Locally
+
+To run the Schrödinger API locally, follow these steps:
+
+#### Python Dependencies
+
+If you're using Python to interact with the Schrödinger API, make sure you have the `requests` library installed. You can install it using pip:
+
+```python
+pip install requests
+```
 
 ### Examples of the DVR method for solution of one-dimensional (1D) Schrödinger equation <a id='1D'></a>
 
@@ -231,7 +271,7 @@ else:
         print("None")
 ```
 
-### Usage/Examples of the DVR method for solution of two-dimensional (2D) Schrödinger equation <a id='2D'></a>
+### Examples of the DVR method for solution of two-dimensional (2D) Schrödinger equation <a id='2D'></a>
 
 #### 2D Morse potential
 
@@ -308,7 +348,7 @@ else:
         print("None")
 ```
 
-### Application of the DVR method for solution of three-dimensional (3D) Schrödinger equation <a id='3D'></a>
+### Examples of the DVR method for solution of three-dimensional (3D) Schrödinger equation <a id='3D'></a>
 
 #### 3D Morse potential
 
