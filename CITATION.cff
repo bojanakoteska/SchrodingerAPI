@@ -19,7 +19,8 @@ authors:
       Computer Science and Engineering, Skopje, North
       Macedonia
     orcid: 'https://orcid.org/0000-0001-6118-9044'
-    role: developer
+    credit: "Development of RESTful web service; Implementation of solving algorithms"
+    role: Developer
   - given-names: Anastas
     family-names: Mishev
     email: anastas.mishev@finki.ukim.mk
@@ -28,7 +29,8 @@ authors:
       Computer Science and Engineering, Skopje, North
       Macedonia
     orcid: 'https://orcid.org/0000-0001-7271-6655'
-    role: project supervisor
+    credit: "Project supervision; Guidance on software design"
+    role: Project Supervisor
   - given-names: Ljupco
     family-names: Pejov
     email: ljupcop@pmf.ukim.mk
@@ -36,7 +38,8 @@ authors:
       Ss.Cyril and Methodius University, Faculty of Natural
       Sciences and Mathematics, Institute of Chemistry,
       Skopje, North Maceodnia
-    role: scientific advisor
+    credit: "Scientific advisor; Domain expertise"
+    role: Scientific Advisor
 identifiers:
   - type: doi
     value: 10.5281/zenodo.11408339
@@ -49,25 +52,14 @@ abstract: >+
   and three-dimensional time-independent Schrödinger
   equation based on the the Gauss-Hermite Discrete Variable
   Representation (DVR) approach.
-
-
   The solution of one-dimensional (1D) Schrödinger equation
   is illustrated in the case of following model potentials:
-
-
-  Morse potential;
-
-  Simple Harmonic Oscillator (SHO) potential;
-
-  Sombrero potential (Mexican hat);
-
-  Woods-Saxon potential.
-
+  Morse potential;   Simple Harmonic Oscillator (SHO) potential;
+  Sombrero potential (Mexican hat); Woods-Saxon potential.
   Solutions of two-dimensional (2D) and three-dimensional
   (3D) Schrödinger equations are illustrated for the
   following two model potentials: multidimensional Morse
   potential and multidimensional SHO potential.
-
 keywords:
   - REST API
   - RESTful web service
