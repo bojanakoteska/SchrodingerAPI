@@ -113,14 +113,31 @@ This command will start the application locally, and you can access it at `http:
 
 #### Running Locally
 
-To run the Schrödinger API locally, follow these steps:
-
-#### Python Dependencies
-
-If you're using Python to interact with the Schrödinger API, make sure you have the `requests` library installed. You can install it using pip:
+To interact with the Schrödinger API, make sure you have the `requests` library installed. You can install it using pip:
 
 ```python
 pip install requests
+```
+
+Here's an example using Python to make a GET request to "http://localhost:8080/2dHermiteSho":
+
+```python
+
+import requests
+
+# Define the URL endpoint
+url = "http://localhost:8080/2dHermiteSho"
+
+# Make a GET request to the endpoint
+response = requests.get(url)
+
+# Check if the request was successful (status code 200)
+if response.status_code == 200:
+    # Print the response content
+    print(response.content.decode('utf-8')) 
+else:
+    print("Error:", response.status_code)
+
 ```
 
 ### Examples of the DVR method for solution of one-dimensional (1D) Schrödinger equation <a id='1D'></a>
