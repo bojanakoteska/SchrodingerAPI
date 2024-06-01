@@ -17,23 +17,25 @@ Solutions of two-dimensional (2D) and three-dimensional (3D) Schrödinger equati
 
 Active contributors: [Bojana Koteska](mailto:bojana.koteska@finki.ukim.mk), [Anastas Mishev](mailto:anastas.mishev@finki.ukim.mk), [Ljupco Pejov](mailto:ljupcop@pmf.ukim.mk)
 
-## Domain
+## Software metadata
+
+### Domain
 
 Computational Physics
 
-## Funder
+### Funder
 
 European Commission under the Horizon 2020 - NI4OS-Europe, grant agreement no. 857645
 
-## Progamming languages
+### Progamming languages
 
 Python 3, Java
 
-## Date created
+### Date created
 
 2024-05-22
 
-## Keywords
+### Keywords
 
 REST API, RESTful web service, Schrödinger equation
 
