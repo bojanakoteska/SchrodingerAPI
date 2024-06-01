@@ -119,6 +119,11 @@ To interact with the Schrödinger API locally, make sure you have the `requests`
 ```python
 pip install requests
 ```
+You can also use the **requirements.txt** file and run the command:
+
+```python
+pip install -r requirements.txt
+```
 
 Here's an example using Python to make a GET request to "http://localhost:8080/2dHermiteSho":
 
