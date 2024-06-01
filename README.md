@@ -90,6 +90,9 @@ One of the options is also to consume the method in the user program source code
 - Ensure you have Apache Maven installed. You can download it from [here](https://maven.apache.org/download.cgi).
 - Ensure you have Python 3 installed. You can download it from [here](https://www.python.org/downloads/).
 
+### Supported Environments
+
+This project is compatible with Windows, macOS, and Linux distributions. Ensure that you have Python and Java installed and configured properly on your system.
 
 ### Build Instructions
 
