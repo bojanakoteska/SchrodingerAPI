@@ -16,29 +16,17 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.x'
-
-      - name: Install Python dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-
-      - name: Install pytest
-        run: pip install pytest
-
       - name: Set up JDK
         uses: actions/setup-java@v2
         with:
           java-version: '11'
           distribution: 'adopt'
 
+      - name: Navigate to SchrodingerAPICOPY directory
+        run: cd SchrodingerAPICOPY
+
       - name: Build with Maven
         run: mvn clean install
 
       - name: Run Java tests
         run: mvn test
-
-      # Add more steps as needed for deployment, code quality checks, etc.
