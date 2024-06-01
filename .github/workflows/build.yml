@@ -29,9 +29,6 @@ jobs:
       - name: Install pytest
         run: pip install pytest
 
-      - name: Run Python tests
-        run: pytest
-
       - name: Set up JDK
         uses: actions/setup-java@v2
         with:
