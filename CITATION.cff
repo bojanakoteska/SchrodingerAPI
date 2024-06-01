@@ -19,6 +19,7 @@ authors:
       Computer Science and Engineering, Skopje, North
       Macedonia
     orcid: 'https://orcid.org/0000-0001-6118-9044'
+    role: developer
   - given-names: Anastas
     family-names: Mishev
     email: anastas.mishev@finki.ukim.mk
@@ -27,6 +28,7 @@ authors:
       Computer Science and Engineering, Skopje, North
       Macedonia
     orcid: 'https://orcid.org/0000-0001-7271-6655'
+    role: project supervisor
   - given-names: Ljupco
     family-names: Pejov
     email: ljupcop@pmf.ukim.mk
@@ -34,6 +36,7 @@ authors:
       Ss.Cyril and Methodius University, Faculty of Natural
       Sciences and Mathematics, Institute of Chemistry,
       Skopje, North Maceodnia
+    role: scientific advisor
 identifiers:
   - type: doi
     value: 10.5281/zenodo.11408339
