@@ -28,12 +28,21 @@ jobs:
       - name: Run Java tests
         run: mvn test
 
-      # Workflow dispatch event that pushes the current version to the release branch.
-      # From here the secondary production deployment workflow will trigger to build the dependencies.
-      - name: Deploy
-        uses: bojanakoteska/SchrodingerAPI@v1.0.0
-        with:
-          branch: main
-          folder: .
-          clean: false
-          single-commit: true
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Deploy 🚀
+        run: |
+          # Custom deployment logic
+          # For example, you can use Git commands to push changes to the current branch
+          git config --local user.email "bojana.koteska@gmail.com"
+          git config --local user.name "bojanakoteska"
+          git add .
+          git commit -m "Deploy to current branch"
+          git push origin HEAD:${{ github.ref }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
