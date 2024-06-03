@@ -37,12 +37,17 @@ jobs:
 
       - name: Deploy 🚀
         run: |
-          # Custom deployment logic
-          # For example, you can use Git commands to push changes to the current branch
-          git config --local user.email "bojana.koteska@gmail.com"
-          git config --local user.name "bojanakoteska"
-          git add .
-          git commit -m "Deploy to current branch"
-          git push origin HEAD:${{ github.ref }}
+          # Check if there are changes to commit
+          if ! git diff-index --quiet HEAD --; then
+            # Custom deployment logic
+            # For example, you can use Git commands to push changes to the current branch
+            git config --local user.email "bojana.koteska@gmail.com"
+            git config --local user.name "bojanakoteska"
+            git add .
+            git commit -m "Deploy to current branch"
+            git push origin HEAD:${{ github.ref }}
+          else
+            echo "No changes to deploy."
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
