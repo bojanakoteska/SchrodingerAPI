@@ -27,3 +27,8 @@ jobs:
 
       - name: Run Java tests
         run: mvn test
+
+         # Add deployment step here
+      - name: Deploy to production
+        # Replace the following line with your deployment script or command
+        run: echo "Deploying to production"
