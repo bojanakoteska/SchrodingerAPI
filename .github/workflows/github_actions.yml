@@ -30,7 +30,7 @@ jobs:
 
       # Workflow dispatch event that pushes the current version to the release branch.
       # From here the secondary production deployment workflow will trigger to build the dependencies.
-      - name: Deploy 🚀
+      - name: Deploy
         uses: bojanakoteska/SchrodingerAPI@v1
         with:
           branch: main
