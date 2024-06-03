@@ -28,7 +28,12 @@ jobs:
       - name: Run Java tests
         run: mvn test
 
-         # Add deployment step here
-      - name: Deploy to production
-        # Replace the following line with your deployment script or command
-        run: echo "Deploying to production"
+      # Workflow dispatch event that pushes the current version to the release branch.
+      # From here the secondary production deployment workflow will trigger to build the dependencies.
+      - name: Deploy 🚀
+        uses: bojanakoteska/SchrodingerAPI@v4
+        with:
+          branch: main/v4
+          folder: .
+          clean: false
+          single-commit: true
